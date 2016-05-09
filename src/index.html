@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTTP Request</title>
+    </head>
+    <body>
+        <p>{{question}}</p>
+        <form action="http://localhost:55555" method="get">
+            Answer: 
+            <select name="n">
+                <option value="0">{{ans1}}</option>
+                <option value="1">{{ans2}}</option>
+                <option value="2">{{ans3}}</option>
+                <option value="3">{{ans4}}</option>
+            </select>
+            <input type="submit" value="Go!">
+        </form>
+        <p>Number correct: {{number}}</p>
+    </body>
+</html>

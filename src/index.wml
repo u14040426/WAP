@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN" "http://www.wapforum.org/DTD/wml12.dtd">
-<wml>
-<card title="HTTP Request">
-<p>{{question}}</p>
+<wml> <card title="HTTP Request"><p>{{question}}</p>
 <p>Answer:
-  <select name="n">
-    <option value="0">{{ans1}}</option>
-    <option value="1">{{ans2}}</option>
-    <option value="2">{{ans3}}</option>
-    <option value="3">{{ans4}}</option>
-  </select>
-  <anchor>
-     <go method="get" href="http://localhost:55555/">
-         <postfield name="n" value="$(n)"/>
-     </go>
-     Submit
-   </anchor>
-</p>
-<p>Number correct: {{number}}</p>
-
-</card>
-</wml>
+ <select name="n"><option value="0">{{ans1}}</option> <option value="1">{{ans2}}</option> <option value="2">{{ans3}}</option> <option value="3">{{ans4}}</option> </select> <do type="accept"><go href="http://localhost:55555?"/></do></p><p>Number correct: {{number}}</p>
+<p align="right"><do type="prev" label="[&#60;&#60;]"><prev/></do></p></card> </wml> 

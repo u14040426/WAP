@@ -1,0 +1,25 @@
+?The successor of IPv4 is:
+-TCP
+-Ethernet
+-IPv5
++IPv6
+?DNS normally uses the following transport layer protocol
+-TCP
++UDP
+-IEEE 802.3
+-All of the above
+?Which of these is the best laptop?
+-Macbook Pro
+-Macbook Air
+-Mac Mini
+?Which political party is crazy?
+-ANC
+-DA
++EFF
+-VW
+?Which institution is best?
++Tuks
+-Harvard
+-UCLA
+-Stanford
+*
